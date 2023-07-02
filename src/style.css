@@ -25,3 +25,24 @@ body {
 ::-webkit-scrollbar {
     display: none;
   }
+
+  .meal-tag:hover{
+    color: red;
+    cursor: pointer;
+  }
+
+    .point-icon {
+        transform: scale(1.2);
+        animation: walking 0.5s ease infinite;
+    }
+
+    @keyframes walking {
+        0% {
+            transform: translateX(10deg);
+        }
+
+        100% {
+            transform: translateX(0deg);
+        }
+}
+
