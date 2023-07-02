@@ -11,7 +11,7 @@ const MealCard = ({meals}) => {
                     <img src={meal.strMealThumb} alt="" className=' w-full object-cover' />
                     <figcaption>{meal.strMeal}</figcaption>
                 </figure>
-                <MealDetail/>
+                <MealDetail meal={meal}/>
             </div>;
           })}
          
