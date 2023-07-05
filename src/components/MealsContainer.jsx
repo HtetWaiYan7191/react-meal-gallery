@@ -17,7 +17,7 @@ const MealsContainer = () => {
 
 
   return (
-  <div className=" grid grid-cols-4 gap-8 my-10 w-[80%] mx-auto">
+  <div className=" grid grid-cols-1 md:grid-cols-4 gap-8 my-10 w-[80%] mx-auto">
     <MealCard meals={meals}></MealCard>
   </div>
     );
