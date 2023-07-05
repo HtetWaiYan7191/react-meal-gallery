@@ -17,7 +17,7 @@ body {
 }
 
 .meal-card:hover .card-layout {
-    height: 390px;
+    height: 290px;
     opacity: 1;
     transition:all 0.4s ease-in;
 }
