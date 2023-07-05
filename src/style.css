@@ -59,11 +59,7 @@ body {
     }
 
     .details-card {
+        
         transition: all 0.3s ease;
     }
-
-    /* .details-card:hover {
-        transform: skewX(14deg);
-        transition: all 0.4s ease ;
-    } */
 }

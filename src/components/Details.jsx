@@ -14,7 +14,7 @@ const Details = () => {
     <div className='bg-gray-100 py-10'>
         <div className="back-icon pt-4 ps-4 ml-7 text-red-500 cursor-pointer"><MdKeyboardBackspace className='text-3xl' onClick={() => navigate(-1)}/> </div>
        <div className="card-container flex my-4 text-gray-900 px-12 mt-10">
-            <figure className=' w-96 mx-auto flex-5/12 shadow-lg details-card hover:shadow-gray-500'>
+            <figure className=' w-96 mx-auto flex-5/12 shadow-lg details-card hover:shadow-gray-500 p-2'>
                 <img src={meal.strMealThumb} className=' object-cover mt-4 rounded-lg' alt="hello" />
                 <figcaption className='text-3xl text-center my-4 font-serif text-green-600'>{meal.strMeal}</figcaption>
             </figure>
