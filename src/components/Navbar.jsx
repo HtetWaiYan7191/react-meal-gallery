@@ -9,8 +9,8 @@ const Navbar = () => {
     }
   return (
     <div className=' flex justify-around align-middle items-center py-5 bg-red-500'>
-        <PiForkKnifeLight className='text-3xl'/>
-        <input type="text" className='p-2 rounded-lg w-[250px]' onChange={handleInput} value={searchInput}  placeholder='Search Your Favuorite Meal'/>
+        <PiForkKnifeLight className='text-3xl text-white'/>
+        <input type="text" className='p-2 rounded-lg w-[250px] focus:outline-green-400' onChange={handleInput} value={searchInput}  placeholder='Search Your Favuorite Meal'/>
     </div>
   )
 }

@@ -4,7 +4,7 @@ import MealsContainer from './MealsContainer';
 
 const Home = () => {
   return (
-    <div className=' bg-pink-300'>
+    <div className=' bg-red-300'>
       <Navbar></Navbar>
       <MealsContainer></MealsContainer>
     </div>
