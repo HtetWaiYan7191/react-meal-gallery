@@ -26,7 +26,7 @@
 
 # 📖 [Food_Gallery] <a name="about-project"></a>
 
-> A meal gallery website is an online platform dedicated to showcasing a vast collection of food-related images, recipes, culinary creations, and gastronomic experiences. It serves as a visual feast for food enthusiasts, offering a visually appealing and inspiring journey through the world of food.
+> A food gallery website is an online platform dedicated to showcasing a vast collection of food-related images, recipes, culinary creations, and gastronomic experiences. It serves as a visual feast for food enthusiasts, offering a visually appealing and inspiring journey through the world of food.
 
 
 
